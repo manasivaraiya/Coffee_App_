@@ -1,6 +1,6 @@
 import 'package:coffee_shop/models/Coffee.dart';
 import 'package:flutter/material.dart';
-// import 'package:coffee_shop/detail_screen/detail_screen.dart';
+import 'package:coffee_shop/detail_screen/detail_screen.dart';
 import './coffee_card.dart';
 
 class Body extends StatelessWidget {
