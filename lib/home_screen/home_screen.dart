@@ -6,7 +6,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF00704A),
+        backgroundColor: Color(0xFF964B10),
         elevation: 0.0,
         actions: [
           Padding(
