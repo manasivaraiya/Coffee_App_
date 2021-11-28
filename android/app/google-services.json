@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "449699025544",
+    "project_id": "kofficcino-a9e82",
+    "storage_bucket": "kofficcino-a9e82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449699025544:android:c398125d412d78ce2b853d",
+        "android_client_info": {
+          "package_name": "com.Kofficcino.flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "449699025544-7fqi6g2hl3pnsmf7kpjkcrsqs6me3ong.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_-aCz84AUbWR1EuG3XitLoQlSpAcAxOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "449699025544-7fqi6g2hl3pnsmf7kpjkcrsqs6me3ong.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
