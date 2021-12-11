@@ -1,7 +1,6 @@
 import 'package:coffee_shop/home_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
 import 'authentication.dart';
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -14,6 +13,9 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPage extends State<LoginPage> {
   User user;
+  void _navigateToNextScreen(BuildContext context) {
+    Navigator.of(context).push(MaterialPageRoute(builder: (context) => HomeScreen()));
+  }
 
    void click() {
      signInWithGoogle().then((user) => {
@@ -31,19 +33,17 @@ class _LoginPage extends State<LoginPage> {
  
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.blueGrey[900],
+      
       borderOnForeground: true,
       
       child: Column(
         children: <Widget>[
-          AppBar(
-            title: Text('All Things Fruit'),
-          ),
+         
           Padding(
-            padding: EdgeInsets.only(top: 200),
+            padding: EdgeInsets.only(top: 300),
           ),
           Text(
-            'Sign In To The Healthier Way Of Diet',
+            'Welcome to Kofficcino',
             style: TextStyle(
                 fontSize: 30, fontWeight: FontWeight.bold, color: Colors.white),
           ),
@@ -51,10 +51,12 @@ class _LoginPage extends State<LoginPage> {
             padding: EdgeInsets.all(50),
           ),
           FloatingActionButton.extended(
+            
             heroTag: "btn",
             label: Text('Sign in With Google'),
-            onPressed: click,
-             // default: false
+            onPressed: () {
+            _navigateToNextScreen(context);
+          },
           ),
         ],
       ),

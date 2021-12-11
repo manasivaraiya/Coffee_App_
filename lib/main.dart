@@ -2,7 +2,6 @@ import 'package:coffee_shop/utils/login.dart';
 import 'package:flutter/material.dart';
 import 'package:coffee_shop/home_screen/home_screen.dart';
 
-
 void main() {
   runApp(MyApp());
 }

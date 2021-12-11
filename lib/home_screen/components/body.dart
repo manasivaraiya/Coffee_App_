@@ -7,14 +7,14 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Color(0xFF964B10),
+       color: Color(0xFF964B10),
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Hello there!',
+              'Hello there!!',
               style: TextStyle(fontSize: 25.0),
             ),
             Categories(),
